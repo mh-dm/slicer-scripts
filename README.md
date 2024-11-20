@@ -22,6 +22,7 @@ Download the desired scripts or clone this repo.
 In Print Settings -> Output options -> "Post-processing scripts" you'd add something like:
 ```
 /path/to/CoastRetract.py
+/path/to/TempRamp.py --increase-by=1.6
 /path/to/ExampleScript.py --example-option=1 --other-option=speed
 ```
 
