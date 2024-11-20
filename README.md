@@ -23,6 +23,7 @@ In Print Settings -> Output options -> "Post-processing scripts" you'd add somet
 ```
 /path/to/CoastRetract.py
 /path/to/TempRamp.py --increase-by=1.6
+/path/to/BedCool.py --num-final-layers=7
 /path/to/ExampleScript.py --example-option=1 --other-option=speed
 ```
 
