@@ -24,7 +24,7 @@ In Print Settings -> Output options -> "Post-processing scripts" you'd add somet
 /path/to/CoastRetract.py
 /path/to/TempRamp.py --increase-by=1.6
 /path/to/BedCool.py --num-final-layers=7
-/path/to/ExampleScript.py --example-option=1 --other-option=speed
+/path/to/TestingTower.py --command=nozzle-temp --start-value=230 --value-change=-0.2
 ```
 
 Note I only test on SuperSlicer so OrcaSlicer / PrusaSlicer support is theoretical.
